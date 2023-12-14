@@ -15,7 +15,7 @@ class Day8 {
     static boolean areAnagrams(String a, String b) {
         // Check if lengths of both strings are equal
         if (a.length() != b.length()) {
-            return false;
+            return false; 
         }
 
         // Convert strings to char arrays
