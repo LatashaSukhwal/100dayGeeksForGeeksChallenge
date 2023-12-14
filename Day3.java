@@ -15,7 +15,7 @@ class Day5{
 
         // Fill the dp table using a bottom-up approach.
         for (int i = 0; i <= m; i++) {
-            for (int j = 0; j <= n; j++) {
+            for (int j = 0; j <= n; j++) { 
                 // If either of the strings is empty, the length of the supersequence is the sum of lengths of the non-empty string
                 if (i == 0 || j == 0) {
                     dp[i][j] = i + j;
