@@ -13,7 +13,7 @@ class Day3 {
     // Function to check if two strings are isomorphic
     static boolean areIsomorphic(String str1, String str2) {
         // Check if the lengths of the two strings are different
-        if (str1.length() != str2.length()) {
+        if (str1.length() != str2.length()) {  
             return false;
         }
 
