@@ -21,6 +21,7 @@ public class Day42 {
         // Iterate through the sorted array and buy stocks until the budget is exhausted
         for (int i = 0; i < n; i++) {
             int price = stockInfo[i][0];
+            int count = Math.min(k / price, stockInfo[i][1]); // Buy minimum of available stocks or budget allows
             maxStocks += count;
             k -= count * price;
         }
