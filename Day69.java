@@ -61,8 +61,8 @@ class Solution {
                 if (graph[u][v] && !(visited[u] || visited[v])) {
                     return false;
                 }
-            }
+            } 
         }
-        return true;
+        return true;   
     }
 }
