@@ -35,7 +35,7 @@ class Solution {
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         helper(root, sum, 0, list, new ArrayList<Integer>());
         return list;
-    }
+    }  
 
     private static void helper(Node root, int target, int sum, ArrayList<ArrayList<Integer>> list, ArrayList<Integer> curr) {
         if (root == null) return;
